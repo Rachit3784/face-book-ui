@@ -114,6 +114,11 @@
 }
 
 @layer base {
+
+  body::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar for WebKit browsers */
+  }
+  
   * {
     @apply border-border outline-ring/50;
   }
